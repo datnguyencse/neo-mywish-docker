@@ -1,0 +1,26 @@
+﻿{
+    "ApplicationConfiguration": {
+        "Paths": {
+            "Chain": "/opt/chaindata/node/Chain_{0}",
+            "Index": "/opt/chaindata/node/Index_{0}",
+            "ApplicationLogs": "/opt/chaindata/node/ApplicationLogs_{0}"
+        },
+        "P2P": {
+            "Port": 20332,
+            "WsPort": 10333,
+            "MaxConnectionsPerAddress": 10
+        },
+        "RPC": {
+            "BindAddress": "0.0.0.0",
+            "Port": 30332,
+            "SslCert": "",
+            "SslCertPassword": ""
+        },
+        "UnlockWallet": {
+            "Path": "wallet.json",
+            "Password": "one",
+            "StartConsensus": true,
+            "IsActive": true
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "ProtocolConfiguration":{
+    "Magic":88367391,
+    "AddressVersion":23,
+    "SecondsPerBlock":15,
+    "StandbyValidators":[
+      "038a43b4134bc7edfb44e2c6f98676a02d24fc0a901a4632c07a02900bede5593b",
+      "0385c29ac2215930dd1eb53c1a4741326d35c666a10130da837c975c1f6494f05e",
+      "029b604c9d22f75ee63c487ad04c8473a8cbb33e46274993eaa712a85392e55dbd",
+      "039f44c54b27b6014f4986f33a73876815a5bd0b0519ae2c1aee42b05b641ab47e"
+    ],
+    "SeedList":[
+      "neo.mywish.io:20332",
+      "neo.mywish.io:20333",
+      "neo.mywish.io:20334",
+      "neo.mywish.io:20335"
+    ],
+    "SystemFee":{
+      "EnrollmentTransaction":1000,
+      "IssueTransaction":500,
+      "PublishTransaction":500,
+      "RegisterTransaction":10000
+    }
+  }
+}
