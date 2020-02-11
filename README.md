@@ -1,8 +1,6 @@
-# neo-privatenet-docker
+# neo-mywish-docker
 
-[![Build Status](https://travis-ci.org/CityOfZion/neo-privatenet-docker.svg?branch=master)](https://travis-ci.org/CityOfZion/neo-privatenet-docker)
-
-This is a convenient way to run a Neo mywish testnet  blockchain. This image is meant to skip the overhead of having to wait to get enough gas for smart contract testing on testnet and to bypass the steps of creating your own private chain. See the section below on extracting Neo and Gas as the private chain in this Docker image starts at block height 0.
+This is a convenient way to run a Neo mywish testnet  blockchain.
 
 **Note:** There is also a turnkey Docker image with the initial 100M NEO and 16.6k GAS already claimed in a ready-to-use wallet available here: https://hub.docker.com/r/cityofzion/neo-privatenet
 
@@ -11,6 +9,7 @@ https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-su
   - If copying and pasting the commands from the article ensure you delete and re-enter any quotation marks that you paste.
 
 These instruction reference the official instructions from Docker found here: https://docs.docker.com/install/linux/docker-ce/ubuntu/.
+
 But, the steps following installation (after step 6) are required in order to run docker from Ubuntu.
 
 ## Instructions to build the image yourself
