@@ -68,7 +68,7 @@ RUN rm /opt/ApplicationLogs.zip
 RUN rm /opt/RpcSystemAssetTracker.zip
 
 # Create chain data directories
-RUN mkdir -p /opt/chaindata/node
+# RUN mkdir -p /opt/chaindata
 
 # Add config files
 ADD ./configs/config.json /opt/node/neo-cli/config.json
