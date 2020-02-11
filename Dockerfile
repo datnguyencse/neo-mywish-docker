@@ -82,8 +82,6 @@ ADD ./configs/config-applicationlogs.json /opt/node/neo-cli/Plugins/ApplicationL
 ADD ./scripts/run.sh /opt/
 ADD ./scripts/run_datadir_wrapper.sh /opt/
 ADD ./scripts/start_consensus_node.sh /opt/
-ADD ./scripts/claim_neo_and_gas_fixedwallet.py /neo-python/
-ADD ./scripts/claim_gas_fixedwallet.py /neo-python/
 ADD ./wallets/neo-privnet.python-wallet /tmp/wallet
 
 # Some .bashrc helpers: 'neopy', and a welcome message for bash users
